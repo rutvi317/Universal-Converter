@@ -1,0 +1,31 @@
+{% extends 'main.html' %}
+{% load static %}
+   {% block content %}
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about_border">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="titlepage text_align_left">
+                                    <h2>About Us</h2>
+                                </div>
+                                <div class="about_text">
+                                    <p> This platform provides user with the desired conversions which have now become the part of everyone's daily life. With the changing prices it has now become difficult to know every exact price. So, we are here to make things easier at your end by giving you the exact data of the daily changing prices. All you need to do is pick the desired Conversion from the given options and put in your value to get the precised and desired outputs.   </p>
+                                    <p> We provide you the facility to do all the conversions in one website which saves your time.</p>
+                                    <a class="read_more" href="{% url 'index' %}">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about_img">
+                                    <figure><img class="img_responsive" src="{% static 'images/about2.png' %}" alt="#" /></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  {%  endblock %}

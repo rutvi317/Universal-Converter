@@ -1,0 +1,372 @@
+{% extends 'main.html' %}
+{% load static %}
+   {% block content %}
+    <div id="top_section" class=" banner_main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="container-fluid">
+                                    <div class="carousel-caption relative">
+                                        <div class="row d_flex">
+                                            <div class="col-md-6">
+                                                <div class="con_img">
+                                                    <figure><img class="img_responsive" src="{% static 'images/top_img.png' %}" alt="#" /></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="bluid">
+                                                    <h1>Begin Your Conversion Journey With Us !!</h1>
+                                                    <p>Now it's easier to do your desired conversions all together..!
+                                                    </p>
+                                                    <a class="read_more" href="{% url 'about' %}">Read More </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container-fluid">
+                                    <div class="carousel-caption relative">
+                                        <div class="row d_flex">
+                                            <div class="col-md-6">
+                                                <div class="con_img">
+                                                    <figure><img class="img_responsive" src="{% static 'images/about2.png' %}" alt="#" /></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="bluid">
+                                                    <h1> Choose <br> Your variations. </h1>
+                                                    <p>There are many variations available, so what are you waiting for..!!
+                                                    </p>
+                                                    <a class="read_more" href="{% url 'about' %}">Read More </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container-fluid">
+                                    <div class="carousel-caption relative">
+                                        <div class="row d_flex">
+                                            <div class="col-md-6">
+                                                <div class="con_img">
+                                                    <figure><img class="img_responsive" src="{% static 'images/top_img.png' %}" alt="#" /></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="bluid">
+                                                    <h1>Progress <br> Your Conversion Journey With Us </h1>
+                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                                                    </p>
+                                                    <a class="read_more" href="{% url 'about' %}">Read More </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end slider section -->
+    <!-- wallet -->
+    <div class="wallet">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <i><img src="{% static 'images/wa1.svg' %}" alt="#"/></i>
+                        <h3>Currency <br>Converter</h3>
+                        
+                        <button type="submit" id="submitBtn"><h5 style="text-align: center; color: black;">CLICK ME</h5> </button>
+                    
+                    </div>
+                    
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <i><img src="{% static 'images/wa2.svg' %}" alt="#"/></i>
+                        <h3>Temperature Converter</h3>
+                        
+                        <button type="submit" id=submitButton><h5 style="text-align: center; color: black;">CLICK ME</h5> </button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <i><img src="{% static 'images/wa3.svg' %}" alt="#"/></i>
+                        <h3> Unit<br>Converter </h3>
+                        
+                        <button type="submit" id="Btn"><h5 style="text-align: center; color: black;">CLICK ME</h5> </button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <i><img src="{% static 'images/wa4.svg' %}" alt="#"/></i>
+                        <h3> Crypto-Currency Converter </h3>
+                        
+                        <button type="submit" id="clickMe"><h5 style="text-align: center; color: black;">CLICK ME</h5> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end wallet -->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about_border">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="titlepage text_align_left">
+                                    <h2>CryptoCurreny Graphs</h2>
+                                </div>
+                                <div class="about_text">
+                                    <p> In here you can see all the details of the most trending cryptocurrencies. The graph will be showing you the decrease or increase in the rates of cryptocurrencies for the last 24 hours, 7 days, 30 days and maximum upto 1 year.  </p>
+                                    <p>In Addition to this you will also get to know that what are cryptocurrencies, why are they trending and why one should buy them...</p>
+                                    <a class="read_more" href="{% url 'graph' %}">Show Graph</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about_img">
+                                    <figure><img class="img_responsive" src="{% static 'images/about2.png' %}" alt="#" /></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <!-- about -->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about_border">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="titlepage text_align_left">
+                                    <h2>About Us</h2>
+                                </div>
+                                <div class="about_text">
+                                    <p> This platform provides user with the desired conversions which have now become the part of everyone's daily life. With the changing prices it has now become difficult to know every exact price. So, we are here to make things easier at your end by giving you the exact data of the daily changing prices. All you need to do is pick the desired Conversion from the given options and put in your value to get the precised and desired outputs.   </p>
+                                    <p> We provide you the facility to do all the conversions in one website which saves your time.</p>
+                                    <a class="read_more" href="{% url 'about' %}">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about_img">
+                                    <figure><img class="img_responsive" src="{% static 'images/about2.png' %}" alt="#" /></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+    
+    
+    <!-- graf -->
+    
+    <!-- end graf -->
+    <!-- testimonial -->
+    <div class="testimonial">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="border_testi">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="titlepage text_align_center">
+                                    <h2>Testimonial</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d_flex">
+                            <div class="col-md-10 offset-md-1">
+                                <div id="testimo" class="carousel slide our_testimonial" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#testimo" data-slide-to="0" class="active"></li>
+                                        <li data-target="#testimo" data-slide-to="1"></li>
+                                        <li data-target="#testimo" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="{% static 'images/clint.jpg' %}" alt="#"/></i>
+                                                                <h3>MorGan Den</h3>
+                                                                <span>Currency</span>
+                                                                <img src="{% static 'images/icon.png' %}" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <p>Hie!! So I just bumped into this website while looking for the different conversions. I used the currency converter option by clicking on it. The overall presentation was so good and most importantly I was able to do currency conversion for as many countries I want at a single go. I would love to visit it more often. Thank You for the experience. I would suggest that if you also want to do the conversions and be updated visit often. </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="{% static 'images/person_5.jpg' %}" alt="#"/></i>
+                                                                <h3>Rachel Green</h3>
+                                                                <span>Unit</span>
+                                                                <img src="{% static 'images/icon.png' %%}" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <p>Hie!! So I just bumped into this website while looking for the different conversions. I used the unit converter option by clicking on it. The overall presentation was so good and most importantly I was able to do conversion for as many units I want at a single go. I would love to visit it more often. Thank You for the experience. I would suggest that if you also want to do the conversions and be updated visit often. Would love to try all the sections.. </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="{% static 'images/person_1.jpg' %}" alt="#"/></i>
+                                                                <h3>Joey Tribiani</h3>
+                                                                <span>Currency</span>
+                                                                <img src="{% static 'images/icon.png' %}" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <p>Hie!! So I just bumped into this website while looking for the different conversions. I used the currency converter option by clicking on it. The overall presentation was so good and most importantly I was able to do currency conversion for as many countries I want at a single go. I would love to visit it more often. Thank You for the experience. I would suggest that if you also want to do the conversions and be updated visit often. </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+                                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testimonial -->
+    <!-- works -->
+    
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about_border">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="titlepage text_align_left">
+                                    <h2>Our Team</h2>
+                                </div>
+                                <div class="about_text">
+                                    <p> I am Rutvi Kumawat. <br>Final Year Student of Computer Engineering</p>
+                                    
+                                    <a class="read_more" href="{%url 'about' %}">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="about_img">
+                                    <figure><img class="img_responsive" src="{% static 'images/ru.jpg' %}" alt="#" /></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- works -->
+    <!-- contact -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage text_align_center">
+                        <h2>Contact Us</h2>
+                    </div>
+                </div>
+                <div class=" col-md-10 offset-md-1">
+                    <form method="post" id="request" class="main_form" action="{% url 'index' %}">
+                    {% csrf_token %}
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <input class="contactus" placeholder="Full Name" type="type" name="Full Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="contactus" placeholder="Email" type="type" name="Email">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="contactus" placeholder="Phone number" type="type" name="Phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <textarea class="textarea" placeholder="Message" type="type" name="message"></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <button class="send_btn">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+    <!-- footer -->
+   {% endblock %}
